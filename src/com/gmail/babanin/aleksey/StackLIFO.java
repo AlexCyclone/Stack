@@ -52,6 +52,9 @@ public class StackLIFO implements ObjectStack {
         if (length == size) {
             return -1;
         }
+        if (object == null) {
+            return -2;
+        }
         if (bl.inList(object.getClass())) {
             return -2;
         }

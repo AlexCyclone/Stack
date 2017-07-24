@@ -3,7 +3,7 @@ package com.gmail.babanin.aleksey;
 import java.util.ArrayList;
 
 public class BlackList {
-    ArrayList<Class<?>> list = new ArrayList<>();
+    private ArrayList<Class<?>> list = new ArrayList<>();
 
     public BlackList() {
         super();
